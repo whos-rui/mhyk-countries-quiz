@@ -256,11 +256,6 @@ function showResult(){
     displayResult(maxKey);
 }
 
-function displayImage(country){
-    let link = country + "-info.png";
-    resultImgEl.src = link;
-}
-
 function displayResult(country){
     //TODO: DONT FORGET TO CHANGE THIS LATER THIS IS NOT RIGHT
     quizContainer.hidden = true;
@@ -304,5 +299,6 @@ countriesBtn.onclick = () => {
 
 //start on page load
 startQuiz();
+
 
 
