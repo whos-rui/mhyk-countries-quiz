@@ -265,7 +265,7 @@ function displayResult(country){
     //TODO: DONT FORGET TO CHANGE THIS LATER THIS IS NOT RIGHT
     quizContainer.hidden = true;
     resultEl.textContent = 'You got:';
-    let link = "images/"+country + "-info.png";
+    let link = "/images/"+country + "-info.png";
     resultImgEl.src = link;
     resultImgEl.classList.remove("hidden");
     resultEl.classList.remove("hidden");
@@ -304,3 +304,4 @@ countriesBtn.onclick = () => {
 
 //start on page load
 startQuiz();
+
