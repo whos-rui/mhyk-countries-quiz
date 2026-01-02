@@ -283,24 +283,7 @@ function displayResult(country){
 }
 
 retakeBtn.onclick = () => {
-    currentScene = 0;
-    Object.values(scores).forEach(value => {
-    value = 0;
-    });
-    resultEl.textContent = '';
-    resultImgEl.innerHTML = "";
-    resultImgEl.classList.add("hidden");
-    resultEl.classList.add("hidden");
-    retakeBtn.classList.add("hidden");
-    countriesBtn.classList.add("hidden");
-    centralImgEl.classList.add("hidden");
-    northernImgEl.classList.add("hidden");
-    easternImgEl.classList.add("hidden");
-    westernImgEl.classList.add("hidden");
-    southernImgEl.classList.add("hidden");
-    quizContainer.hidden = false;
-    downloadGuideEl.hidden = true;
-    startQuiz();
+    window.location.reload();
 }
 
 countriesBtn.onclick = () => {
