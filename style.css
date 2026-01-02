@@ -80,6 +80,7 @@ div{
 
 img{
     padding: 5px 0px;
+    max-width: 600px;
 }
 
 p{
